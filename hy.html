@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="hy">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wander — ճամփորդություններ դեպի զբոսաշրջիկների մոռացած վայրեր</title>
+  <meta name="description" content="Մանրակրկիտ մշակված երթուղիներ անաղարտ վայրերով, էկոլոգիական ճամփորդություններ և 24/7 կոնսիերժ աջակցություն։">
+  <link rel="alternate" hreflang="en" href="https://politechash123.github.io/wander/">
+  <link rel="alternate" hreflang="ru" href="https://politechash123.github.io/wander/ru.html">
+  <link rel="alternate" hreflang="hy" href="https://politechash123.github.io/wander/hy.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;600;700&family=Gabarito&family=Inter:wght@400;500;700&family=Jacques+Francois&family=Jaini+Purva&family=Kavivanar&family=Lobster&family=Madimi+One&family=Marck+Script&family=Noto+Sans+Armenian:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- Shared logo house, used in header and footer -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="logo-house" viewBox="0 0 106 138">
+      <path d="M31.1394 136H103.486V59.73L51.2355 3.00025L2 59.73V136H12.7179M2 59.73H103.486M12.7179 136V97.865H31.1394V136M12.7179 136H31.1394M58.2692 89.5131V76.4338H75.1835M58.2692 89.5131V102.592H75.1835M58.2692 89.5131H75.1835M92.0977 89.5131V102.592H75.1835M92.0977 89.5131V76.4338H75.1835M92.0977 89.5131H75.1835M75.1835 89.5131V76.4338M75.1835 89.5131V102.592M25.1106 116.145H28.7949" fill="none" stroke="currentColor" stroke-width="4"/>
+    </symbol>
+  </svg>
+
+  <header class="header" id="top">
+    <a class="logo" href="#top" aria-label="Comfort — գլխավոր էջ">
+      <span class="logo__text">COM</span>
+      <svg class="logo__house" aria-hidden="true"><use href="#logo-house"/></svg>
+      <span class="logo__text">FORT</span>
+    </a>
+
+    <nav class="nav" aria-label="Հիմնական մենյու">
+      <a href="#top">Գլխավոր</a>
+      <a href="#about">Մեր մասին</a>
+      <a href="#packages">Տուրեր</a>
+      <a href="https://t.me/Ast04ka" target="_blank" rel="noopener">Բլոգ</a>
+    </nav>
+
+    <form class="search" role="search" id="search-form">
+      <label class="visually-hidden" for="search-input">Որոնում</label>
+      <input class="search__input" id="search-input" type="search" placeholder="Վայր, քաղաք կամ ուղղություն…">
+      <button class="search__btn" type="submit" aria-label="Որոնել">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="3"/><path d="M16 16l6 7" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+      </button>
+    </form>
+
+    <nav class="lang" aria-label="Լեզու">
+      <a href="index.html" hreflang="en" lang="en">ENG</a>
+      <a href="ru.html" hreflang="ru" lang="ru">РУС</a>
+      <a href="hy.html" hreflang="hy" lang="hy" aria-current="page">ՀԱՅ</a>
+    </nav>
+
+    <a class="btn btn--dark header__book" href="https://t.me/Ast04ka" target="_blank" rel="noopener">Ամրագրել</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero__bg" src="images/hero.webp" alt="" fetchpriority="high">
+      <div class="hero__content">
+        <h1 class="hero__title">Wander</h1>
+        <p class="hero__subtitle">Մենք մատուցում ենք ավիացիոն աութսորսինգի ծառայություններ ռազմական պատվիրատուների համար</p>
+        <div class="hero__buttons">
+          <a class="btn btn--light" href="https://t.me/Ast04ka" target="_blank" rel="noopener">Պլանավորել ուղևորությունը</a>
+          <a class="btn btn--outline" href="#destinations">Դիտել ուղղությունները</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="trusted" aria-labelledby="trusted-title">
+      <h2 class="trusted__title" id="trusted-title">Մեր մասին գրում են</h2>
+      <ul class="trusted__list">
+        <li class="trusted__item trusted__item--conde">Conde Nast</li>
+        <li class="trusted__item trusted__item--natgeo">National Geo</li>
+        <li class="trusted__item trusted__item--lonely">LonelyPlanet</li>
+        <li class="trusted__item trusted__item--travel">Travel+Leisure</li>
+      </ul>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="about__title">Ճամփորդություններ դեպի զբոսաշրջիկների մոռացած վայրեր։</h2>
+      <p class="about__text">Մենք համոզված ենք, որ ամենավառ տպավորությունները սպասում են այնտեղ, որտեղ ավարտվում են զբոսաշրջային արահետները։ Տեղացիների հետ մեր սերտ կապերի շնորհիվ մենք կազմակերպում ենք իսկական ճամփորդություններ, որոնք չեք գտնի ոչ մի ուղեցույցում։</p>
+      <ul class="about__list">
+        <li><img src="images/check.svg" alt="" width="61" height="61">Մանրակրկիտ մշակված երթուղիներ անաղարտ վայրերով</li>
+        <li><img src="images/check.svg" alt="" width="61" height="61">Էկոլոգիական ճամփորդություններ, որոնք աջակցում են տեղական համայնքներին</li>
+        <li><img src="images/check.svg" alt="" width="61" height="61">24/7 կոնսիերժ աջակցություն ողջ ճամփորդության ընթացքում</li>
+      </ul>
+      <a class="btn btn--ghost about__more" href="#why">Ավելին</a>
+    </section>
+
+    <section class="destinations" id="destinations">
+      <div class="section-head">
+        <h2 class="section-head__title">Հանրաճանաչ ուղղություններ</h2>
+        <p class="section-head__text section-head__text--destinations">Կղզիներում հանգստից մինչև զով լեռնային քաղաքներ․ բացահայտեք, թե ուր կտանի ձեզ հաջորդ ճամփորդությունը։</p>
+      </div>
+      <div class="destinations__grid">
+        <article class="photo-card photo-card--dest">
+          <img src="images/santorini.webp" alt="" loading="lazy">
+          <h3 class="photo-card__label">Սանտորինի</h3>
+        </article>
+        <article class="photo-card photo-card--dest">
+          <img src="images/kyoto.webp" alt="" loading="lazy">
+          <h3 class="photo-card__label">Կիոտո</h3>
+        </article>
+        <article class="photo-card photo-card--dest">
+          <img src="images/patagonia.webp" alt="" loading="lazy">
+          <h3 class="photo-card__label">Պատագոնիա</h3>
+        </article>
+      </div>
+    </section>
+
+    <section class="packages" id="packages">
+      <div class="section-head">
+        <h2 class="section-head__title">Տուրային փաթեթներ</h2>
+        <p class="section-head__text section-head__text--packages">Մատչելի, ճկուն և անմոռանալի արկածներ</p>
+      </div>
+      <div class="packages__grid">
+        <article class="photo-card photo-card--package photo-card--golden">
+          <img src="images/golden-sands.webp" alt="" loading="lazy">
+          <h3 class="photo-card__label">Հանգիստ Ոսկե ավազներում</h3>
+        </article>
+        <article class="photo-card photo-card--package photo-card--arctic">
+          <img src="images/arctic-fjord.webp" alt="" loading="lazy">
+          <h3 class="photo-card__label">Արկտիկական ֆյորդերի ոդիսական</h3>
+        </article>
+      </div>
+    </section>
+
+    <section class="why" id="why">
+      <div class="section-head">
+        <h2 class="section-head__title">Ինչո՞ւ ընտրել մեզ</h2>
+        <p class="section-head__text section-head__text--why">Մենք պարզապես ուղևորություններ չենք ամրագրում։ Մենք ստեղծում ենք հիշողություններ՝ պատասխանատու, անկեղծ և ձեզ համար։</p>
+      </div>
+      <div class="why__grid">
+        <article class="feature feature--1">
+          <h3 class="feature__title">Տեղանքի խորը իմացություն</h3>
+          <p class="feature__text">Տեղում աշխատող մեր թիմերը գիտեն յուրաքանչյուր թաքնված արահետ, ընտանեկան ռեստորան և գաղտնի դիտակետ։</p>
+        </article>
+        <article class="feature feature--2">
+          <h3 class="feature__title">Էկոլոգիական ճամփորդություններ</h3>
+          <p class="feature__text">Մենք համագործակցում ենք միայն այն գործընկերների հետ, որոնք աջակցում են տեղական համայնքներին և պահպանում բնությունը։</p>
+        </article>
+        <article class="feature feature--3">
+          <h3 class="feature__title">Անհատական երթուղիներ</h3>
+          <p class="feature__text">Ոչ մի կաղապարային տուր։ Յուրաքանչյուր ուղևորություն կազմում ենք ձեր հետաքրքրություններին և տեմպին համապատասխան։</p>
+        </article>
+        <article class="feature feature--4">
+          <h3 class="feature__title">Կոնսիերժ 24/7</h3>
+          <p class="feature__text">Ամրագրումից մինչև տուն վերադառնալը մեր թիմը միշտ կապի մեջ է։</p>
+        </article>
+        <article class="feature feature--5">
+          <h3 class="feature__title">Թափանցիկ գներ</h3>
+          <p class="feature__text">Ոչ մի թաքնված վճար։ Վճարում եք ճիշտ այնքան, որքան տեսնում եք, և ստանում եք ճիշտ այն, ինչ խոստացված է։</p>
+        </article>
+        <article class="feature feature--6">
+          <h3 class="feature__title">5 աստղ վարկանիշ</h3>
+          <p class="feature__text">Ավելի քան 4000 ճամփորդ մեզ է վստահել իր երազանքների արձակուրդը։ Կարծիքներն ինքնին խոսուն են։</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2 class="cta__title">Պատրա՞ստ եք նոր արկածի</h2>
+      <p class="cta__text">Յուրաքանչյուր անմոռանալի արկած սկսվում է երազանքից։ Պատմեք, թե որտեղ եք ցանկանում լինել, և մենք կկազմենք մանրակրկիտ երթուղի՝ հաշվի առնելով ձեր հետաքրքրությունները, տեմպը և ճամփորդելու ոճը։</p>
+      <a class="btn btn--light cta__btn" href="https://t.me/Ast04ka" target="_blank" rel="noopener">Պլանավորել ուղևորությունը</a>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <div class="section-head">
+        <h2 class="section-head__title">Ճամփորդների կարծիքները</h2>
+        <p class="section-head__text section-head__text--reviews">Իրական պատմություններ ճամփորդներից, որոնց երազանքների արձակուրդը վերածվեց անմոռանալի հիշողությունների։</p>
+      </div>
+      <div class="reviews__grid">
+        <article class="review">
+          <div class="review__top">
+            <img class="review__photo" src="images/emily.webp" alt="Էմիլի Ջեֆ" loading="lazy">
+            <div class="review__person">
+              <h3 class="review__name">Էմիլի Ջեֆ</h3>
+              <p class="review__role">CEO TheWebagency</p>
+            </div>
+          </div>
+          <div class="review__stars" role="img" aria-label="5 աստղ 5-ից"><i></i><i></i><i></i><i></i><i></i></div>
+          <p class="review__quote">Հիասքանչ վայրեր, գերազանց սպասարկում և հիշողություններ, որոնք կպահենք ողջ կյանքում։</p>
+        </article>
+        <article class="review">
+          <div class="review__top">
+            <img class="review__photo" src="images/hamza.webp" alt="Համզա Մալիք" loading="lazy">
+            <div class="review__person">
+              <h3 class="review__name">Համզա Մալիք</h3>
+              <p class="review__role">Մենեջեր<br>TheWekrtech</p>
+            </div>
+          </div>
+          <div class="review__stars" role="img" aria-label="5 աստղ 5-ից"><i></i><i></i><i></i><i></i><i></i></div>
+          <p class="review__quote">Ամեն ինչ կատարյալ էր կազմակերպված, և ուղևորությունը ստացվեց հարթ, հաճելի ու իսկապես անմոռանալի։</p>
+        </article>
+        <article class="review">
+          <div class="review__top">
+            <img class="review__photo" src="images/sara.webp" alt="Սառա Ռայ" loading="lazy">
+            <div class="review__person">
+              <h3 class="review__name">Սառա Ռայ</h3>
+              <p class="review__role">Հաշվապահ<br>TheConstruction</p>
+            </div>
+          </div>
+          <div class="review__stars" role="img" aria-label="5 աստղ 5-ից"><i></i><i></i><i></i><i></i><i></i></div>
+          <p class="review__quote">Գեղեցիկ վայրեր, հարմարավետ կացություն և բացառիկ սպասարկում․ ամեն ինչ գերազանցեց մեր սպասումները։</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a class="logo logo--footer" href="#top" aria-label="Comfort — վերև">
+          <span class="logo__text">COM</span>
+          <svg class="logo__house" aria-hidden="true"><use href="#logo-house"/></svg>
+          <span class="logo__text">FORT</span>
+        </a>
+        <p class="footer__tagline">Ճամփորդություններ դեպի զբոսաշրջիկների մոռացած վայրեր։ 2015 թվականից։</p>
+        <ul class="footer__social">
+          <li><a href="https://www.instagram.com/mnstrash_/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 15 15" aria-hidden="true"><path d="M4.375 1.25H10.625C12.3509 1.25 13.75 2.64911 13.75 4.375V10.625C13.75 12.3509 12.3509 13.75 10.625 13.75H4.375C2.64911 13.75 1.25 12.3509 1.25 10.625V4.375C1.25 2.64911 2.64911 1.25 4.375 1.25Z"/><path d="M10.0003 7.10644C10.0774 7.62659 9.98859 8.15782 9.7464 8.62457C9.50422 9.09132 9.12102 9.46982 8.65132 9.70623C8.18162 9.94265 7.64933 10.0249 7.13017 9.9414C6.61101 9.85786 6.13141 9.61274 5.75958 9.24091C5.38775 8.86909 5.14264 8.38949 5.0591 7.87032C4.97556 7.35116 5.05785 6.81887 5.29426 6.34917C5.53067 5.87947 5.90917 5.49628 6.37592 5.25409C6.84267 5.0119 7.3739 4.92306 7.89406 5.00019C8.42463 5.07887 8.91584 5.3261 9.29511 5.70538C9.67439 6.08466 9.92163 6.57586 10.0003 7.10644Z"/><path d="M10.9375 4.0625H10.9438"/></svg></a></li>
+          <li><a href="#" aria-label="Twitter"><svg viewBox="0 0 15 15" aria-hidden="true"><path d="M13.75 2.50001C13.75 2.50001 13.3125 3.81251 12.5 4.62501C13.5 10.875 6.625 15.4375 1.25 11.875C2.625 11.9375 4 11.5 5 10.625C1.875 9.68751 0.3125 6.00001 1.875 3.12501C3.25 4.75001 5.375 5.68751 7.5 5.62501C6.9375 3.00001 10 1.50001 11.875 3.25001C12.5625 3.25001 13.75 2.50001 13.75 2.50001Z"/></svg></a></li>
+          <li><a href="#" aria-label="Facebook"><svg viewBox="0 0 15 15" aria-hidden="true"><path d="M11.25 1.25H9.375C8.5462 1.25 7.75134 1.57924 7.16529 2.16529C6.57924 2.75134 6.25 3.5462 6.25 4.375V6.25H4.375V8.75H6.25V13.75H8.75V8.75H10.625L11.25 6.25H8.75V4.375C8.75 4.20924 8.81585 4.05027 8.93306 3.93306C9.05027 3.81585 9.20924 3.75 9.375 3.75H11.25V1.25Z"/></svg></a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__heading">Ճամփորդություն</h3>
+        <ul>
+          <li><a href="#destinations">Ուղղություններ</a></li>
+          <li><a href="#packages">Տուրային փաթեթներ</a></li>
+          <li><a href="#">Ճամփորդական բլոգ</a></li>
+          <li><a href="#">Լուսանկարներ</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3 class="footer__heading">Ընկերություն</h3>
+        <ul>
+          <li><a href="#about">Մեր մասին</a></li>
+          <li><a href="#">Մեր թիմը</a></li>
+          <li><a href="#">Աշխատանք</a></li>
+          <li><a href="#">Մամուլ</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3 class="footer__heading">Աջակցություն</h3>
+        <ul>
+          <li><a href="https://t.me/Ast04ka" target="_blank" rel="noopener">Կապ մեզ հետ</a></li>
+          <li><a href="#">Հաճախ տրվող հարցեր</a></li>
+          <li><a href="#">Ամրագրման կանոններ</a></li>
+          <li><a href="#">Գաղտնիության քաղաքականություն</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="footer__divider">
+
+    <div class="footer__contacts">
+      <a href="tel:095090117">
+        <svg class="footer__icon footer__icon--phone" viewBox="0 0 19 19" aria-hidden="true"><path d="M17.4175 13.3952V15.7702C17.4184 15.9907 17.3732 16.209 17.2849 16.411C17.1966 16.613 17.067 16.7943 16.9046 16.9434C16.7421 17.0924 16.5503 17.2059 16.3414 17.2765C16.1326 17.3472 15.9112 17.3734 15.6917 17.3536C13.2556 17.0889 10.9155 16.2564 8.85957 14.9232C6.94677 13.7077 5.32505 12.086 4.10957 10.1732C2.77164 8.10786 1.93901 5.75644 1.67916 3.30941C1.65937 3.09048 1.68539 2.86984 1.75555 2.66153C1.82571 2.45321 1.93848 2.26179 2.08668 2.09944C2.23487 1.93709 2.41525 1.80738 2.61632 1.71857C2.8174 1.62975 3.03476 1.58378 3.25457 1.58357H5.62957C6.01377 1.57979 6.38624 1.71584 6.67755 1.96637C6.96886 2.2169 7.15913 2.5648 7.21291 2.94524C7.31315 3.70529 7.49905 4.45157 7.76707 5.16982C7.87359 5.45318 7.89664 5.76113 7.8335 6.05719C7.77036 6.35324 7.62367 6.62499 7.41082 6.84024L6.40541 7.84566C7.53239 9.82763 9.17343 11.4687 11.1554 12.5957L12.1608 11.5902C12.3761 11.3774 12.6478 11.2307 12.9439 11.1676C13.2399 11.1044 13.5479 11.1275 13.8312 11.234C14.5495 11.502 15.2958 11.6879 16.0558 11.7882C16.4404 11.8424 16.7916 12.0361 17.0427 12.3324C17.2937 12.6287 17.4271 13.007 17.4175 13.3952Z"/></svg>
+        095 090 117
+      </a>
+      <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=politechash@gmail.com" target="_blank" rel="noopener">
+        <svg class="footer__icon footer__icon--mail" viewBox="0 0 20 20" aria-hidden="true"><path d="M3.33439 3.33301H16.6677C17.5882 3.33301 18.3344 4.0792 18.3344 4.99967V14.9997C18.3344 15.9201 17.5882 16.6663 16.6677 16.6663H3.33439C2.41392 16.6663 1.66772 15.9201 1.66772 14.9997V4.99967C1.66772 4.0792 2.41392 3.33301 3.33439 3.33301Z"/><path d="M18.3344 5.83301L10.8594 10.583C10.6021 10.7442 10.3047 10.8297 10.0011 10.8297C9.69746 10.8297 9.4 10.7442 9.14272 10.583L1.66772 5.83301"/></svg>
+        politechash@gmail.com
+      </a>
+    </div>
+
+    <p class="footer__credit">Դիզայնը՝ <a href="https://www.instagram.com/stellar_.k/" target="_blank" rel="noopener">Ստելլա Կուրդովա</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
